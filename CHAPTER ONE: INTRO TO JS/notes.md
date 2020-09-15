@@ -44,3 +44,30 @@ let data = {                    // An object with 2 properties.
     trial2: [[2,3], [4,5]]    // The elements of the arrays are arrays.
 };
 ```
+
+### Expressions
+
+An expression is a phrase of JavaScript that can be evaluated to produce a value. The use of . and [] to refer to the value of an object property or array element is an expression. 
+
+### Statements
+
+If JavaScript expressions are like phrases, then JavaScript statements are like full sentences. A expression is something that computes a value but doesn't do anything: it doesn't alter the program state in any way. Statements on the hand hand don't have a value but they do alter the state.
+
+### Functions
+
+A function is a named and parameterized block of JavaScript code that you define once and can then invoke over and over again. 
+
+```javascript
+let x = 5, y = 65
+function plus1(x) {                     // Define a function named plus1 with a parameter x
+    return x + 1;                      // Return a value one larger than the value passed in
+}                                     // Functions are enclosed in curly braces.
+
+plus1(x)
+
+let square = function(x) {           // Functions are values and can be assigned to vars
+    return x * x;                   // Compute the function's value
+};                                 // Semi colon marks the end of the assignment
+
+square(plus1(y))                 // Invoke two functions in one sentence
+```
