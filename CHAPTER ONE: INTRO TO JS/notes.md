@@ -94,3 +94,15 @@ points.dist = function() {      // Define a method to compute distance between p
 points.dist()             // => Math.sqrt(2): distance between our 2 points.
 ```
 
+JavaScript statements include conditionals and loops using the syntax of C, C++, Java and other languages.
+
+```javascript
+function abs(x) {                           // A function to compute the absolute value.
+    if (x >= 0) {                          // The if statement ...
+        return x;                         // ... execute
+    }
+    else {
+        return -x;
+    }
+}
+abs(-10) === abs(10)
