@@ -34,6 +34,7 @@ primes[4] = 11;           // Alter an existing element of the array by assignmen
 ```
 
 Arrays and objects can hold other arrays and objects.
+
 ```javascript
 let points = [          // An array with two elements.
     {x: 0, y: 0},      // Each element is an object.
@@ -45,9 +46,9 @@ let data = {                    // An object with 2 properties.
 };
 ```
 
-### Expressions
+## Expressions
 
-An expression is a phrase of JavaScript that can be evaluated to produce a value. The use of . and [] to refer to the value of an object property or array element is an expression. 
+An expression is a phrase of JavaScript that can be evaluated to produce a value. The use of . and [] to refer to the value of an object property or array element is an expression.
 
 ### Statements
 
@@ -55,7 +56,7 @@ If JavaScript expressions are like phrases, then JavaScript statements are like 
 
 ### Functions
 
-A function is a named and parameterized block of JavaScript code that you define once and can then invoke over and over again. 
+A function is a named and parameterized block of JavaScript code that you define once and can then invoke over and over again.
 
 ```javascript
 let x = 5, y = 65
