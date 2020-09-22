@@ -31,3 +31,52 @@ null                          // Absence of an object
 ## Identifiers and Reserved Words
 
 Identifiers are used to name constants, variables, properties, functions and classes and to provide labels for certain loops in JS code. An identifier must begin with a letter, an underscore or a dollar sign. Digits are not allowed as the first character so that JS can easily distinguish identifiers from numbers.
+
+### Reserved Words
+
+as
+async
+await
+break
+case
+catch
+class
+const
+continue
+debugger
+default
+delete
+do
+else
+export
+extends
+false
+finally
+for
+from
+function
+get
+if
+import
+in
+instanceof
+let
+new
+null
+of
+return
+set 
+static
+super
+switch
+target
+this
+throw
+true
+try
+typeof
+var
+void
+while
+with 
+yield
