@@ -158,3 +158,24 @@ let p = new Point(1, 1);             // The geometric point (1, 1).
 // Now use a method of the Point object p
 p.distance()
 ```
+### Lexical Structure
+
+The set of elementary rules that specifies how you write programs in a language. It is the lowest level syntax of a language: it specifies what variable names look like, the delimiter characters for comments, and how one program statement is separated from the next, for example.
+
+- Case sensitivity, spaces and line breaks.
+
+- Comments
+
+- Literals 
+
+- Identifiers and reserved words
+
+- Unicode
+
+- Optional semicolons
+
+### Text of a JS program
+
+JS is a case sensitive language. Keywords, variables, function names and other identifiers must always be typed with a consistent capitalization of letters. 
+
+JS ignores spaces that appear beteen tokens in programs. 
