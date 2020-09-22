@@ -34,14 +34,7 @@ Identifiers are used to name constants, variables, properties, functions and cla
 
 ### Reserved Words
 
-as
-async
-await
-break
-case
-catch
-class
-const
+as async await break case catch class const
 continue
 debugger
 default
