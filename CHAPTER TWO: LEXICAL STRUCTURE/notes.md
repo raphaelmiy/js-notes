@@ -34,42 +34,11 @@ Identifiers are used to name constants, variables, properties, functions and cla
 
 ### Reserved Words
 
-as async await break case catch class const
-continue
-debugger
-default
-delete
-do
-else
-export
-extends
-false
-finally
-for
-from
-function
-get
-if
-import
-in
-instanceof
-let
-new
-null
-of
-return
-set 
-static
-super
-switch
-target
-this
-throw
-true
-try
-typeof
-var
-void
-while
-with 
-yield
+as async await break case catch class const continue debugger default delete do else export extends false finally for from function get if import in instanceof let new null of return set  static super
+switch target this throw true try typeof var void while with yield
+
+JS also restricts or reserves the use of certain keywords that are not currently used by the language but that might be used in future versions.
+
+    enum implements interface package private protected public
+
+For historical reasons, arguments and eval are not allowed as identifiers in certain circumstances and are best avoid entirely.
