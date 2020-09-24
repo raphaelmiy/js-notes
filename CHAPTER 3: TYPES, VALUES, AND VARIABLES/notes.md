@@ -11,3 +11,12 @@ ES6 adds a new special-purpose type, known as ***Symbol***, that enables the def
 Any JS value that is not a number, a string, a boolean, a symbol, null, or undefined is an object. An object (that is, a member of the type object) is a collection of properties where each property has a name and a value (either a primitive value or another object). 
 
 An ordinary JS object is an unordered collection of named values. The language also defines a special kind of object, known as an ***array***, that represents an ordered collection of numbered values. The JS language includes special syntax for working with arrays, and arrays have some special behavior that distinguishes them from ordinary objects.
+
+### Other Usefull Object Types
+
+> Set Object: represents a set of values.
+> Map Object: represents a mapping from keys to values.
+> Typed array types: Facilitate operations on arrays of bytes and other binary data.
+> RegExp Type: represents textual patterns and enables sophisticated matching, searching and replacing operations on strings.
+> Data Type: Represents dates and times and supports rudimentary date arithmetic
+> Error and its Subtypes: represent errors that can arise when executing JS code.
