@@ -9,3 +9,5 @@ The special JavaScript values **null** and **undefined** are primitive values, b
 ES6 adds a new special-purpose type, known as ***Symbol***, that enables the definition of language extensions without harming barkward compatibility.
 
 Any JS value that is not a number, a string, a boolean, a symbol, null, or undefined is an object. An object (that is, a member of the type object) is a collection of properties where each property has a name and a value (either a primitive value or another object). 
+
+An ordinary JS object is an unordered collection of named values. The language also defines a special kind of object, known as an ***array***, that represents an ordered collection of numbered values. The JS language includes special syntax for working with arrays, and arrays have some special behavior that distinguishes them from ordinary objects.
