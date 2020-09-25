@@ -27,3 +27,7 @@ An ordinary JS object is an unordered collection of named values. The language a
 -Error and its Subtypes: represent errors that can arise when executing JS code.
 
 Functions and classes are not just part of the language syntax: they are themselves values that can be manipulated by JS programs. Like any JS value that is not a primitive value, functions and classes are a specialized kind of object.
+
+JS's object types are *mutable* and its primitive types are *immutable*. A value of a mutable type can change.
+
+Constants and variables allow you to use names to refer to values in your programs. Constants are declared with **const** and variables are declared with **let**. JS constants and variables are ***untyped***: declarations do not specify what kind of values will be assigned.
