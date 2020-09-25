@@ -14,14 +14,16 @@ An ordinary JS object is an unordered collection of named values. The language a
 
 ### Other Usefull Object Types
 
-> Set Object: represents a set of values.
+-Set Object: represents a set of values.
 
-> Map Object: represents a mapping from keys to values.
+-Map Object: represents a mapping from keys to values.
 
-> Typed array types: Facilitate operations on arrays of bytes and other binary data.
+-Typed array types: Facilitate operations on arrays of bytes and other binary data.
 
-> RegExp Type: represents textual patterns and enables sophisticated matching, searching and replacing operations on strings.
+-RegExp Type: represents textual patterns and enables sophisticated matching, searching and replacing operations on strings.
 
-> Data Type: Represents dates and times and supports rudimentary date arithmetic
+-Data Type: Represents dates and times and supports rudimentary date arithmetic
 
-> Error and its Subtypes: represent errors that can arise when executing JS code.
+-Error and its Subtypes: represent errors that can arise when executing JS code.
+
+Functions and classes are not just part of the language syntax: they are themselves values that can be manipulated by JS programs. Like any JS value that is not a primitive value, functions and classes are a specialized kind of object.
